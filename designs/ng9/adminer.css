@@ -23,8 +23,12 @@ a,a:visited {
 }
 
 a:hover {
+	color:white !important;
+	background:#006aeb !important;
+	text-decoration:none !important;
+}
+a:hover sup {
 	color:white;
-	background:#006aeb;
 }
 
 h1 {
@@ -74,7 +78,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover{
-	background:blue;
+	background:#006aeb;
 }
 
 input[type=checkbox]{
